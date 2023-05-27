@@ -10,12 +10,9 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2017",
-    "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022", "dom"],
     // Strictness flags. Matching the settings applied in the Angular Components source
     // code, ensuring that examples do not break in StackBlitz with stricter settings.
     "noUnusedParameters": false,
